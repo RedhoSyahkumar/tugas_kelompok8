@@ -1,0 +1,96 @@
+/* nabar */
+a.navbar-brand {
+  color: bluesky;
+}
+
+.nama{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ size: 15px; 
+ color: white;
+}
+
+li.active a {
+  color: aliceblue;
+}
+
+
+/* Pendahluan */
+#Pendahuluan h1 {
+  border: 3px solid black;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#Pendahuluan .container {
+  padding: 250px 0px;
+}
+
+#Pendahuluan .row h1 {
+  margin-top: -20px;
+}
+
+#Pendahuluan a img {
+  width: 100%;
+}
+
+#Pendahuluan .row {
+  justify-content: center;
+}
+
+#Pendahuluan .col-md-4 {
+  width: 180px;
+  margin: 5px -15px;
+}
+
+.Pendahuluan-feed1 img {
+  width: 100%;
+}
+
+.Pendahuluan-feed1 img:hover {
+  
+}
+
+.Pendahuluan-desc {
+  position: absolute;
+  margin: -50px 25px;
+  color: white;
+}
+
+/* Pendahuluan modal */
+.modal-dialog {
+  height: 700pz;
+}
+
+.modal-body img {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Pendahuluan parallax */
+#Pendahuluan {
+  background-image: url(../gallery/belajar5.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.copyright {
+  margin-top: -30px;
+  text-align: center;
+}
+
+/* animate */
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
+}
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
