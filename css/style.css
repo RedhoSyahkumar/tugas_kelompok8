@@ -13,6 +13,46 @@ li.active a {
   color: aliceblue;
 }
 
+/* slide */
+#Populer .carousel-item {
+  overflow: hidden;
+}
+
+#Populer .carousel-item img {
+  width: 750px;
+}
+
+/* Tutorial photo */
+
+#Tutorial .container {
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+
+
+#Tutorial #title h1 {
+  margin-top: -50px;
+  border-radius: 10px;
+  box-shadow: -1px 1px 5px 0px black;
+}
+
+#Tutorial .col {
+  margin: 5px -7px;
+
+}
+
+#Tutorial .col a img {
+  width: 100%;
+}
+
+/* parallax new */
+#Tutorial {
+  background-image: url(../gallery/belajar7.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 /* Pendahluan */
 #Pendahuluan h1 {
